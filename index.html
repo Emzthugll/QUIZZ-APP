@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Trivia!</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>QUIZ APP!</h1>
+    </div>
+
+    <div class="container">
+      <div class="score">
+        <h2>Total Score: <span id="score">0</span></h2>
+      </div>
+
+      <div class="section">
+        <h2>Part 1: Multiple Choice</h2>
+        <hr />
+
+        <div class="question">
+          <h3>
+            1. Which of the following gases is reduced in the reduction process?
+          </h3>
+          <button class="answer" data-correct="false">Carbon</button>
+          <button class="answer" data-correct="false">Oxygen</button>
+          <button class="answer" data-correct="false">Helium</button>
+          <button class="answer" data-correct="true">Hydrogen</button>
+          <p class="message"></p>
+        </div>
+
+        <div class="question">
+          <h3>
+            2. Which of the following compound is mainly used in hand sanitizer?
+          </h3>
+          <button class="answer" data-correct="false">Aldehyde</button>
+          <button class="answer" data-correct="true">Alcohol</button>
+          <button class="answer" data-correct="false">Acetic acid</button>
+          <button class="answer" data-correct="false">Ketone</button>
+          <p class="message"></p>
+        </div>
+
+        <div class="question">
+          <h3>3. What is the S.I unit of frequency?</h3>
+          <button class="answer" data-correct="false">Diopter</button>
+          <button class="answer" data-correct="true">Hertz</button>
+          <button class="answer" data-correct="false">Second</button>
+          <button class="answer" data-correct="false">Meter</button>
+          <p class="message"></p>
+        </div>
+
+        <div class="question">
+          <h3>4. Acid turns blue litmus paper into which color?</h3>
+          <button class="answer" data-correct="true">Red</button>
+          <button class="answer" data-correct="false">Blue</button>
+          <button class="answer" data-correct="false">Yellow</button>
+          <button class="answer" data-correct="false">Yellow-orange</button>
+          <p class="message"></p>
+        </div>
+
+        <div class="question">
+          <h3>
+            5. Which of the following enzymes is not present in the human
+            stomach?
+          </h3>
+          <button class="answer" data-correct="false">Pepsin</button>
+          <button class="answer" data-correct="false">Hydrochloric acid</button>
+          <button class="answer" data-correct="false">Mucus</button>
+          <button class="answer" data-correct="true">Trypsin</button>
+          <p class="message"></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Part 2: Fill in the Blanks</h2>
+        <hr />
+        <div class="question" data-question-id="1">
+          <h3>1. Name the gland which is present above our kidneys?</h3>
+          <input type="text" class="response" />
+          <button class="confirm">Confirm</button>
+          <p class="message"></p>
+        </div>
+
+        <div class="question" data-question-id="2">
+          <h3>2. What is the basic unit of our neural system?</h3>
+          <input type="text" class="response" />
+          <button class="confirm">Confirm</button>
+          <p class="message"></p>
+        </div>
+
+        <div class="question" data-question-id="3">
+          <h3>3. What is the unit of wavelength?</h3>
+          <input type="text" class="response" />
+          <button class="confirm">Confirm</button>
+          <p class="message"></p>
+        </div>
+
+        <div class="question" data-question-id="4">
+          <h3>4. What is the color of AgBr?</h3>
+          <input type="text" class="response" />
+          <button class="confirm">Confirm</button>
+          <p class="message"></p>
+        </div>
+
+        <div class="question" data-question-id="5">
+          <h3>5. What is the other name of Newton's first law of motion?</h3>
+          <input type="text" class="response" />
+          <button class="confirm">Confirm</button>
+          <p class="message"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
